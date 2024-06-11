@@ -1,0 +1,40 @@
+.container{
+    margin-top:50px;
+    column-count: 3;
+    column-gap: 40px ;
+    column-rule:1px solid lightblue ;
+    
+    column-rule: 1px solid lightblue ;
+    column-fill:balanced ;
+    column-rule-style:solid ;
+    column-width: 100px;
+    color-scheme: light dark;
+}
+h2{
+    column-span: all;
+}
+.btn{
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    margin: 50px;
+    background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(45,213,253,1) 100%);
+color: #fff;
+cursor: pointer;
+
+
+}
+.btn:hover{
+    width: 150px;
+}
+#demo{
+    width: 500px;
+    border-radius: 20px;
+    height: 50px;
+    
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
